@@ -64,6 +64,12 @@ public class AdviserMapTactician extends Adviser {
     }
 }
 
+/**
+ * The following class was extracted from the original DumbBot included in the DipGame GameManager available at http://www.dipgame.org/browse/gameManager
+ * 
+ * The objective of the DipBlue is to test the effectiveness of communication.
+ * Dumbbot was used as a base to test how much communication would improve an already tested bot. 
+ */
 class AdviserDumbBot {
     private final int[] m_spr_prox_weight = {100, 1000, 30, 10, 6, 5, 4, 3, 2, 1};
     private final int[] m_fall_prox_weight = {1000, 100, 30, 10, 6, 5, 4, 3, 2, 1};
